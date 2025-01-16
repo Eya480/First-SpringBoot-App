@@ -5,7 +5,7 @@ import lombok.Data;
 @AllArgsConstructor
 @Data
 public class Product {
-    private int prodId;
+    private Integer prodId;
     private String prodName;
-    private int price;
+    private Integer price;
 }
